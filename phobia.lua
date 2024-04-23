@@ -1983,7 +1983,7 @@ gm.__namecall =
 -- \\ Library Launch
 local library = loadstring(game:HttpGet("https://pastebin.com/raw/L7Z56MwH"))()
 local actualLib = library:initLibrary()
-local lib = actualLib:Load({name = "phobia", sizeX = 425, sizeY = 510, color = Color3.fromRGB(37, 15, 134)})
+local lib = actualLib:Load({name = "roseware", sizeX = 425, sizeY = 510, color = Color3.fromRGB(37, 15, 134)})
 -- \\ T510
 local Aiming = lib:Tab("Aiming")
 local Blatant = lib:Tab("Blatant")
@@ -5269,8 +5269,8 @@ Teleports:dropdown {
 		end
 	end
 }
-Info:Label("Script: PHOBIA")
-Info:Label("Build: PHOBIA")
+Info:Label("Script: roseware")
+Info:Label("Build: roseware")
 Info:Button {
 	Name = "Copy discord invite",
 	Callback = function()
@@ -5278,7 +5278,7 @@ Info:Button {
 		game.StarterGui:SetCore(
 			"SendNotification",
 			{
-				Title = "PHOBIA",
+				Title = "roseware",
 				Text = "Copied discord invite"
 			}
 		)
@@ -5291,7 +5291,7 @@ Info:Button {
 		game.StarterGui:SetCore(
 			"SendNotification",
 			{
-				Title = "PHOBIA",
+				Title = "roseware",
 				Text = "Copied support discord tag"
 			}
 		)
@@ -5342,7 +5342,7 @@ WTRMARK:Toggle {
 
 WTRMARK:Box {
 	Name = "Watermark Name",
-	Default = "PHOBIA",
+	Default = "roseware",
 	Placeholder = "name here",
 	Type = "string",
 	Flag = "WatermarkName",
